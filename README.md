@@ -1,9 +1,8 @@
 ## jira
 
-[![Travis CI](http://img.shields.io/travis/sacres/ansible/roles/jira.svg?style=flat)](http://travis-ci.org/sacres/ansible/roles/jira)  [![Platforms](http://img.shields.io/badge/platforms-el-lightgrey.svg?style=flat)](#)
+  [![Platforms](http://img.shields.io/badge/platforms-EL-blue.svg?style=flat)](#)
 
 Install/configure jira project management.
-
 
 
 
@@ -16,16 +15,13 @@ List of default variables available in the inventory:
 
 ### Detailed usage guide
 
-Copy ./defaults/main.yml-redacted to ./defaults/main.yml and amend accordingly
-
+Amend defaults/main.yml accordingly;
 ansible-playbook -i inventory/foo jira.yml
-
-
 
 ### Authors and license
 
 `jira` role was written by:
-- [Steven Acres](https://github.com/sacres/ansible) | [e-mail](mailto:steven@swatteksystems.com) | [Twitter](https://twitter.com/swamobil)
+- [Steven Acres](https://github.com/sacres) | [e-mail](mailto:steven@swatteksystems.com) | [Twitter](https://twitter.com/swamobil)
 License: [BSDv3](https://tldrlegal.com/license/bsd-3-clause-license-(revised))
 
 ***
